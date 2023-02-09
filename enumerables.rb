@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 # this method returns an array of hashes, which we'll use in the other methods
 def spicy_foods 
@@ -60,5 +60,5 @@ end
 def average_heat_level(spicy_foods)
   spicy_foods.map{|food| food[:heat_level]}.sum/spicy_foods.length
 end
-# binding.pry
-# 0
+binding.pry
+0
